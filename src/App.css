@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  background-color: #fff;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 70%;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.btn-group button {
+  width: 48%;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #5c7cfa;
+  color: white;
+}
+
+.btn-group button:hover {
+  background-color: #41549e;
+}
+
+.btn-group button i {
+  margin-right: 5px;
+}
+
+.main-heading {
+  font-size: 20px;
+}
+
+.blue {
+  color: blue;
+}
+
+.cyan {
+  background-color: cyan;
+}
+
+.wrapper {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
+.item {
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.company-details-wrapper {
+  display: flex;
+  flex-direction: row;
+  background-color: #b08ade73;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.company {
+  background-color: #252525;
+  color: white;
+  height: 35px;
+  width: 200px;
+  border-radius: 4px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-right: 15px;
+  text-transform: uppercase;
+}
+
+.country-name {
+  font-size: 20px;
+  font-weight: 200;
+  margin-left: 40px;
+  
+}
+
+.text20 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+table {
+  margin-top: 20px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 13px;
+}
+
+th {
+  background-color: #b08ade73;
+}
